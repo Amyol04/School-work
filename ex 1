@@ -1,0 +1,31 @@
+public class exerize1 {
+	public class JavaVariables {
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			
+			String = carName="volvo";
+			int maxSpeed=120;
+			
+			int x=5;
+			int y=10;
+			
+			int x= x+y;
+			
+			
+		
+			String str= carName+ maxSpeed;
+		
+			String strVar = " car go brr";
+		
+			System.out.println(strVar);
+				
+			System.out.println("carname is "+carName);
+			System.out.println("maxspeed is "+maxSpeed);
+				
+			System.out.println("String str is "+String str);
+				
+		
+		}//end main method
+
+	}//end class
