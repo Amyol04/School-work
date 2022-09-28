@@ -1,0 +1,7 @@
+public class stringss { 
+	
+	public static void main(String[] args) {
+	     String txt ="Heyo";
+	     System.out.println(txt.toLowerCase());
+	} // end of greeting
+} // end of class
