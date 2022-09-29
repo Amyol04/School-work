@@ -12,16 +12,16 @@ public class ex1 {
 		int z = x + y;
 		
 		System.out.println("Car Name: " +carName);
-		System.out.println("Max Speed; " + maxSpeed); // using the + character to connect String and variable values 
+		System.out.println("Max Speed; " + maxSpeed); // using the "+" character to connect String and variable values 
 		
 		
-		System.out.println("x is :" +x); //
+		System.out.println("x is :" +x); 
 		System.out.println("y is :" +y);
 		
 		
 		
 		
-		System.out.println("z is :" +z);	// using + to add nums together 
+		System.out.println("z is :" +z); // using + to add nums together 
 	
 		
 		
