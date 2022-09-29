@@ -23,7 +23,7 @@ public class ex3 {
 			
 			System.out.println("strings are equal");
 			
-		}// enf of if 
+		}// end of if 
 		
 		else {
 			
