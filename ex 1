@@ -1,31 +1,30 @@
-public class exerize1 {
-	public class JavaVariables {
-
-		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-			
-			String = carName="volvo";
-			int maxSpeed=120;
-			
-			int x=5;
-			int y=10;
-			
-			int x= x+y;
-			
-			
+public class ex1 {
+	public static void main(String[] args) {
 		
-			String str= carName+ maxSpeed;
+		String carName ="volvo";
+		int maxSpeed =120;
 		
-			String strVar = " car go brr";
 		
-			System.out.println(strVar);
-				
-			System.out.println("carname is "+carName);
-			System.out.println("maxspeed is "+maxSpeed);
-				
-			System.out.println("String str is "+String str);
-				
+		int x= 5;
+		int y= 10;
 		
-		}//end main method
-
-	}//end class
+		
+		int z = x + y;
+		
+		System.out.println("Car Name: " +carName);
+		System.out.println("Max Speed; " + maxSpeed); // using the + character to connect String and variable values 
+		
+		
+		System.out.println("x is :" +x); //
+		System.out.println("y is :" +y);
+		
+		
+		
+		
+		System.out.println("z is :" +z);	// using + to add nums together 
+	
+		
+		
+	} // end of class
+		
+} // end of main
