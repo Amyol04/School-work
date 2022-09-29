@@ -1,2 +1,2 @@
 # School-work
-Java ex from school
+Java code from school that i should understand but i dont xx
