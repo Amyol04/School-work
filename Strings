@@ -1,7 +1,7 @@
 public class Strings {
 		public static void main(String[] args) {
 		     String txt ="Heyo";
-		     System.out.println(txt.toLowerCase());
+		     System.out.println(txt);
 		     
 		     // txt lenght.
 		     
