@@ -19,7 +19,7 @@ public class Strings {
 		     //finding string in string 
 		     // The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string (including whitespace):
 		     String txt5 ="pls locate where `locate`occures";
-		     System.out.println(txt.indexOf(locate));
+		     System.out.println(txt.indexOf("locate"));
 		     
 		     //String Concatenation
 		     
