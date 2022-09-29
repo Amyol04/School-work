@@ -4,9 +4,9 @@ public class ex3 {
 		int intA = 20;
 		int intB = 43;
 		int intC = intA + intB;
-		int intB = intA * intB;
+		int intD = intA * intB;
 		
-		string strA = "bubbles";
+		String strA = "bubbles";
 		String strB = "clouds";
 		
 		if(intC > intD) {
@@ -19,9 +19,9 @@ public class ex3 {
 			System.out.println("D is less then C");
 		} // end of else
 		
-		if(strA.equals(str8)) {
+		if(strA.equals(strB)) {
 			
-			System.out.ptintln("strings are equal");
+			System.out.println("strings are equal");
 			
 		}// enf of if 
 		
