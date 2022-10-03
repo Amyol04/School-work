@@ -1,20 +1,20 @@
 public class ex4 {
 	public static void main(String[] args) {
 		
-		int Var1 =20;
-		int Var2 =43;
-		int Var3 =(Var1/Var2);
-		int Var4 =(Var1*Var1);
-		
+		int var1 =20;
+		int var2 =43;
+	
 		String StrA="first";
         String StrB="seccond";
-        String StrC=(StrA+StrB);
+        String StrC=StrA+StrB;
+        
+        int var3 =var1/var2;
+		int var4 =var1*var1;
         
         
-        if(Var3 < Var4) {
+        if(var3 < var4) {
         	
         	System.out.println("var3 is less than or equal to var4");
-        	
         	
         }
         
@@ -24,7 +24,7 @@ public class ex4 {
         	
         }
         
-        if(StrA == StrC ) {
+        if(StrA.equals(StrC)) {
         	
         	System.out.println("strings are equal ​");
         	
@@ -35,7 +35,5 @@ public class ex4 {
         
        }
       
-        
-        
 	} // end of class
 } //end of main
