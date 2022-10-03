@@ -1,15 +1,15 @@
 public class ex4 {
 	public static void main(String[] args) {
 		
-		int var1 =20;
-		int var2 =43;
+		double var1 =20;
+		double var2 =43;
 	
         String strA="first";
         String strB="seccond";
         String strC=strA+strB;
         
-        int var3 =var1/var2;
-		int var4 =var1*var1;
+        double var3 =var1/var2;
+		double var4 =var1*var1;
         
         
         if(var3 < var4) {
