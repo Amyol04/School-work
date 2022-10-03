@@ -29,9 +29,12 @@ public class ex4 {
         	System.out.println("strings are equal ​");
         	
         }
+         else {
+        	
+        	System.out.println("Strings arent equal");
         
-        
-    
+       }
+      
         
         
 	} // end of class
