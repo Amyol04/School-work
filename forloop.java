@@ -8,7 +8,7 @@ public class forloop {
 			
 			System.out.println(i);
 			
-		} // end of for 
+		} // end of for/ if statement
 		
 	} // end of main
 } // end of class
