@@ -4,9 +4,9 @@ public class ex4 {
 		int var1 =20;
 		int var2 =43;
 	
-		String StrA="first";
-        String StrB="seccond";
-        String StrC=StrA+StrB;
+        String strA="first";
+        String strB="seccond";
+        String strC=strA+strB;
         
         int var3 =var1/var2;
 		int var4 =var1*var1;
@@ -24,7 +24,7 @@ public class ex4 {
         	
         }
         
-        if(StrA.equals(StrC)) {
+        if(strA.equals(strC)) {
         	
         	System.out.println("strings are equal ​");
         	
