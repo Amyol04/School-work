@@ -1,32 +1,43 @@
-public class elephant {
+import javax.swing.JOptionPane;
+
+public class Elephants {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		
 	
-	int elephants = 0;
-	int answer =0;
-	int fullCar =0;
-	String elephantsNum = "";
+	int elephantsAnswer = 0;
+	int elephantsrInQueue = 0;
+	int spaceInMini = 0;
+	int noOfElephents = 0;
+	String userMessage = "";
 	
 	//while loop will keep asking questions as long as the user is answering yes
-	while(answer== 0 && fullCar == 0) {
+	while(elephantsrInQueue== 0 && spaceInMini == 0) {
 		
 		//Ask the user if they want to enter the car?
-		answer = JOptionPane.showConfirmDialog(null,
-				"wanna enter the car?", "please confirm your answer", JOptionPane.YES_NO_CANCEL_OPTION);
+		elephantsAnswer = JOptionPane.showConfirmDialog(null,
+				"Do you wanna enter the car?", "please confirm your answer", JOptionPane.YES_NO_CANCEL_OPTION);
 		
 		//when the user selects yes
-		if(answer == 0) {
-			elephants++;
-			elephantsNum = "there are now "+elephants+ "elephants in the car";
-			
+
+		if(elephantsAnswer == 0) {
+			noOfElephents++;
+			userMessage = "there are now "+noOfElephents+ "elephants in the car";
+		
 		}
 		//check if there are more cars in the queue?
-		answer = JOptionPane.showConfirmDialog(null,
+		elephantsrInQueue = JOptionPane.showConfirmDialog(null,
 				"are there more cars in the queue? ", "please confirm your answer", JOptionPane.YES_NO_CANCEL_OPTION);
-		fullCar = JOptionPane.showConfirmDialog(null,
+		spaceInMini = JOptionPane.showConfirmDialog(null,
 				"is there room in the car for more? ", "please confirm your answer", JOptionPane.YES_NO_CANCEL_OPTION);
 		}//end while
+		// once while loop is complete - update users on elephents in the mini
+		userMessage = "There are now " +noOfElephents+" elephants in the mini ";
+		JOptionPane.showMessageDialog(null, userMessage);
+
 
 	}//end main
+
+
 }//end class
+
