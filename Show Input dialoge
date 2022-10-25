@@ -23,3 +23,10 @@ public class ShowInputDialogExample {
         double height = Double.parseDouble(heightS);
         System.out.println("Your height is: "+height+" feet");
         
+        
+        
+
+	}
+
+}
+        
