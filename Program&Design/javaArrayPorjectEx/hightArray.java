@@ -1,7 +1,6 @@
 package javaArrayPorjectEx;
 
 import java.util.Arrays;
-
 import javax.swing.JOptionPane;
 
 /**
@@ -27,6 +26,7 @@ public class hightArray {
 		//average height
 		userMessage = createUserMessage(studentHeights, smallestHeight);
 		JOptionPane.showMessageDialog(null, userMessage);
+		
 	} // end of main
 	
 	public static double[] fillArray(double[] heightArray) {
@@ -37,12 +37,14 @@ public class hightArray {
 		arraySizeStr = JOptionPane.showInputDialog(null,"How"+ "many students will you be entering hight measurements for?");
 		
 		int arraySize = Integer.parseInt(arraySizeStr);
+		heightArray = new double[arraySize];
 		
-		for(int i =0; i < arraySize; i++) {
-			
-			nextHeightStr = JOptionPane.showInputDialog(null,"please enter "+"your next student height in meters?");
-			nextHeight = Double.parseDouble(nextHeightStr);
-			heightArray[i] = nextHeight;
+		
+		for(int i = 0; i < arraySize; i++) {
+            nextHeightStr = JOptionPane.showInputDialog(null, "please enter "
+                    + "your next student height in meters?");
+            nextHeight = Double.parseDouble(nextHeightStr);
+            heightArray[i] = nextHeight;
 			
 		} // end for 
 		
@@ -67,9 +69,12 @@ public class hightArray {
 		for(int i = 0; i < heightArray.length; i++) {
             userMessage = userMessage.concat("height "+i+"is: "+heightArray[i]+"\n");
         }
+		
         userMessage = userMessage.concat("Smallest height is: " +smallestHeight + "\n");
+       
     
         return userMessage;
 	} // end of user message
 	
 } // end of class
+
