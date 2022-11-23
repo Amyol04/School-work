@@ -34,7 +34,8 @@ public class hightArray {
 		String arraySizeStr;
 		double nextHeight;
 		String nextHeightStr;
-		arraySizeStr = JOptionPane.showInputDialog(null,"How"+ "many students will you be entering hight measurements for?");
+		arraySizeStr = JOptionPane.showInputDialog(null,"How"+ "many students will you be entering 
+				hight measurements for?");
 		
 		int arraySize = Integer.parseInt(arraySizeStr);
 		heightArray = new double[arraySize];
