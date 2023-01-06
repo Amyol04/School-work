@@ -23,7 +23,19 @@ public class SwitchDemo {
          default;
             System.out.println("Youre not 1,2,4,18 or 22!");
 
-    } // end of switch xx 
+    } // end of switch xx more readable way of doing switch statements. Theyre like if / else statements. 
+
+    String results; 
+
+    results = age >= 18? "You can vote Yipee!" : "You are too young to vote >:(";
+
+    System.out.println("results");
+
+    results = age == 1? "Walking": Age == 2? "Talking": age == 4? "Go To School!": age == 18? "Go to college":
+    age == 22? "get a job x" : "Youre not 1,2,4,18 or 22!"; 
+    System.out.println(results): 
+
+    // dont. this is unreadable.. possible but pls for the sake of your mental wellbeing, dont. 
 
   ] // end of main
 } // end of class
