@@ -1,0 +1,29 @@
+public class SwitchDemo {
+  public static void main(String[] args) [
+
+    int age = 15;
+
+    switch(age) { 
+
+        Case 1: System.out.println("Walking");
+         break;
+       
+         Case 2: System.out.println("Talking");
+         break;
+
+         Case 4: System.out.println("Go To School");
+         break;
+
+         Case 18: System.out.println("Go To Collge");
+         break;
+
+         Case 22; System.out.println("Get A Job");
+         break;
+
+         default;
+            System.out.println("Youre not 1,2,4,18 or 22!");
+
+    } // end of switch xx 
+
+  ] // end of main
+} // end of class
