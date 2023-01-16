@@ -1,0 +1,17 @@
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  border-bottom-style: dotted;
+  padding: 50px;
+  margin: 30px;
+}
+
+a{
+	border: 3px solid blue;
+	border-bottom-style: dashed;
+	border-top-style: none;
+    border-right-style: none;
+	border-left-style: none;
+	
+}
