@@ -13,7 +13,7 @@ img {
 
   }
 
-p2{
+p{
 
     text-align: center;
      color: blue;
@@ -25,5 +25,13 @@ ul{
     list-style: none;
     text-align: center;
     font-size: medium;
+
+}
+
+a{
+
+    text-align: center;
+    display:block;
+    font-size: large;
 
 }
