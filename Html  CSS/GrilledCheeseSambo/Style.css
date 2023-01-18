@@ -1,0 +1,86 @@
+body {
+    background: rgb(106,101,208);
+background: linear-gradient(90deg, rgba(106,101,208,1) 2%, rgba(32,143,174,1) 52%, rgba(34,194,181,1) 82%);
+} 
+.header {
+
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    background: #ccf3eb8f;
+    color: white;
+    font-size: 30px;
+
+  }
+
+  .navbar {
+
+    border-radius: 15px;
+    overflow: hidden; /* Hide overflow */
+    background-color: rgba(51, 51, 51, 0.39); /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+
+    text-align: center; /* Center the text */
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+
+    border-radius: 15px;
+    flex: 0%;
+    background-color: #f1f1f183;
+    padding: 0%
+
+  }
+
+  img{
+
+    border-radius: 15px;
+  }
+  
+  /* Main column */
+  .main {
+    border-radius: 15px;
+    flex: 50%; /* Set the width of the main content */
+    background-color: rgba(255, 255, 255, 0.808); /* White background color */
+    padding: 5%; /* Some padding */
+    text-align: center;
+    vertical-align: top;
+    
+  }
+  p{
+
+    font-size: larger;
+   
+  }
+
+  ul{
+    list-style: none;
+    text-align: center;
+    font-size: large;
+  }
