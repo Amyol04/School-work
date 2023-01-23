@@ -1,0 +1,115 @@
+html, h1 , h2, h3 , h4 , ul, li , a , p , 
+article , aside , footer , main , nav , section {
+
+    padding: 0;
+    margin:0;
+
+}
+
+body{
+
+    border: 2px solid black;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    text-align: center;
+
+}
+
+main{
+
+    width: 600px;
+    float: left;
+    margin-top: 10px;
+}
+
+aside{
+
+    width: 320px;
+    float: right;
+    margin-top: 10px;
+}
+
+footer{
+
+    border: 3px solid navy;
+    clear:both;
+    background-color: navy;
+    color: white;
+    padding: 5pc 10px;
+    
+
+}
+
+.center{
+
+    text-align: center;
+}
+
+nav{
+
+    border: 3px solid navy;
+    background-color: navy;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+li a{
+
+    color: white;
+}
+
+li{
+
+    display:inline;
+    font-weight: bold;
+    display:left;
+    font-size: 20px;
+}
+
+section header{
+
+    border: 3px solid #80bfff;
+    background-color: #80bfff;
+
+}
+
+article header{
+
+    border: 3px solid white;
+    background-color: white;
+}
+
+aside header{
+
+    border: 3px solid white;
+    background-color: white;
+
+}
+
+section {
+
+    border: 3px solid #80bfff;
+    background-color: #80bfff;
+
+}
+
+.pauth{
+
+    font-style: italic;
+}
+
+article h3{
+
+    font-style: bold;
+}
+
+article{
+
+    border: 3px solid white;
+    background-color: white;
+    margin: 10px;
+}
+
