@@ -1,6 +1,4 @@
-package fOOOP;
-
- /**
+/**
  * 
  * @author Amy o leary											
  * 
