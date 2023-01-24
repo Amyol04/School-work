@@ -1,4 +1,4 @@
-/**
+ /**
  * 
  * @author Amy o leary											
  * 
@@ -8,24 +8,24 @@
 public class Timee {
 	private int hours;
 	private int minutes;
-	private int secconds;
+	private int seconds;
 	
 	public Timee() {	
 		setHours(12);
 		setMinutes(0);
-		setSecconds(0);
+		setseconds(0);
 	} // end of public 
 
 	/**
 	 * @param hours - 00 to 23
 	 * @param minutes - 00 to 59
-	 * @param secconds - 00 to 59
+	 * @param seconds - 00 to 59
 	 */
 
-	public Timee(int hours, int minutes, int secconds) {
+	public Timee(int hours, int minutes, int seconds) {
 		setHours(hours);
 		setMinutes(minutes);
-		setSecconds(secconds);
+		setseconds(seconds);
 	} // end public time 
 
 		// Getters and Setters // Hours
@@ -52,23 +52,23 @@ public class Timee {
 			System.err.println("Invalid minutes");
 	}
 
-	// Getters and Setters // Secconds
-	public int getSecconds() {
-		return secconds;
+	// Getters and Setters // seconds
+	public int getseconds() {
+		return seconds;
 	}
 	
-	public void setSecconds(int newSecconds) {
-		if(newSecconds >= 0 && newSecconds <= 59)
-			secconds = newSecconds;
+	public void setseconds(int newseconds) {
+		if(newseconds >= 0 && newseconds <= 59)
+			seconds = newseconds;
 		
 		else
-			System.err.println("Invalid secconds");
+			System.err.println("Invalid seconds");
 	}
 
 
 	// to String method
 	public String toString() {
-		return String.format("%02d/%02d/%02d", hours, minutes, secconds);
+		return String.format("%02d/%02d/%02d", hours, minutes, seconds);
 	}
 
 	
