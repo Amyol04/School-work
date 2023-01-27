@@ -1,3 +1,5 @@
+
+
  /**
  * 
  * @author Amy o leary											
@@ -57,9 +59,9 @@ public class Timee {
 		return seconds;
 	}
 	
-	public void setseconds(int newseconds) {
-		if(newseconds >= 0 && newseconds <= 59)
-			seconds = newseconds;
+	public void setseconds(int newSeconds) {
+		if(newSeconds >= 0 && newSeconds <= 59)
+			seconds = newSeconds;
 		
 		else
 			System.err.println("Invalid seconds");
@@ -71,7 +73,12 @@ public class Timee {
 		return String.format("%02d/%02d/%02d", hours, minutes, seconds);
 	}
 
-	
+	public void inc() {
 
+		minutes++;
+
+
+
+	}
 
 } // end of class x 
