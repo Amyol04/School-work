@@ -1,6 +1,4 @@
-
-
- /**
+/**
  * 
  * @author Amy o leary											
  * 
@@ -11,6 +9,8 @@ public class Timee {
 	private int hours;
 	private int minutes;
 	private int seconds;
+
+	
 	
 	public Timee() {	
 		setHours(12);
@@ -70,15 +70,33 @@ public class Timee {
 
 	// to String method
 	public String toString() {
-		return String.format("%02d/%02d/%02d", hours, minutes, seconds);
+		return String.format("%02d:%02d:%02d", hours, minutes, seconds);
 	}
 
 	public void inc() {
 
 		minutes++;
 
-
-
 	}
+
+    public void tick() {
+		seconds++;
+		
+			if(seconds > 59){
+				minutes++;
+				seconds = 0;
+			}
+
+			if(minutes > 59){
+				hours++;
+				minutes = 0;
+			}
+
+			if(hours > 23){
+				hours = 0;
+
+			}
+
+    }
 
 } // end of class x 
