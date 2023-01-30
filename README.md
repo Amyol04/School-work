@@ -1,2 +1,4 @@
 # School-work
-Code from school that im working on currently in kerry collge :D 
+
+Code that shows my abilities with programming, theres examples of Java, CSS and HTML. 
+These exampels come from my college course. I am a student at Kerry College student Software Development. 
