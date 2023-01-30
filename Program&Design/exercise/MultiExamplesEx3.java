@@ -1,4 +1,4 @@
-public class MultiExamples {
+public class MultiExamplesEx3 {
 	public static void main(String[] args) {
 		
 		int intA = 20;
