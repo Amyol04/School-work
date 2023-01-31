@@ -1,3 +1,11 @@
+/**
+ * 
+ * @author Amy o leary											
+ * 
+ * A class to represent a time.
+ *
+ */
+
 public class TestTime {
     
     public static void main(String args[]){
@@ -8,7 +16,8 @@ public class TestTime {
         for(int i = 0; i < 8000; i++) {
 			firstClock.tick();
 			System.out.println(firstClock);
-		}
+		} // loop sytem to add to secconds / mins / hours. 
+
     } // end of mian
     
 } // end of class 
