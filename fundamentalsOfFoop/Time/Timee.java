@@ -1,7 +1,7 @@
 /**
  * 
  * @author Amy o leary											
- *  Softwear Development. Kerry College. 31/1/2023
+*  Softwear Development. Kerry College. 31/1/2023
  * A class to represent a time.
  *
  */
