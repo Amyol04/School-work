@@ -2,14 +2,14 @@
  * 
  * @author Amy o leary											
  * 
- * A class to represent a time
+ * A class to represent a time.
  *
  */
 public class Timee {
-	private int hours;
-	private int minutes;
-	private int seconds;
-
+			private int hours;
+			private int minutes;
+			private int seconds;
+			// ints for seconds, mins and hours. 
 	
 	
 	public Timee() {	
@@ -41,6 +41,7 @@ public class Timee {
 		else
 			System.err.println("Invalid hours");
 	}
+// sets hours. 
 
 		// Getters and Setters // Minutes
 	public int getMinutes() {
@@ -72,7 +73,7 @@ public class Timee {
 	public String toString() {
 		return String.format("%02d:%02d:%02d", hours, minutes, seconds);
 	}
-
+ // for format. 
 	public void inc() {
 
 		minutes++;
@@ -86,16 +87,19 @@ public class Timee {
 				minutes++;
 				seconds = 0;
 			}
-
+ // if secconds go above 59. It adds to minuts.
+// resets back go 0 when it goes avove. 
 			if(minutes > 59){
 				hours++;
 				minutes = 0;
 			}
+// same as secconds but it adds time to minuts 
 
 			if(hours > 23){
 				hours = 0;
 
 			}
+// resets hours when it goes above 23. 
 
     }
 
