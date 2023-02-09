@@ -8,12 +8,15 @@ article , aside , footer , main , nav , section {
 
 body{
 
-    background: rgb(34,193,195);
-    background: linear-gradient(to right, rgb(60, 161, 195), white,orange);
+    background: rgb(42,153,154);
+    background: linear-gradient(90deg, rgba(42,153,154,1) 0%, rgba(253,187,45,1) 100%);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
+    color:antiquewhite;
+    font: Tahoma;
+    font-size: medium;
+    width: 98%;
 }
 
 
@@ -22,36 +25,49 @@ header{
     background-color: teal;
     padding-bottom: 1%;
     padding-top: 1%;
+    font-size: large;
    
 }
 
 main{
 
+    
     width: 600px;
     float: left;
     margin-top: 10px;
+    
 }
 
 img{
 
     float:left;
-    height: 30%;
-    width: 50%;
+    height: 150%;
+    width: 60%;
+}
+
+.SectionImg{
+
+    float:left;
+    height: 140%;
+    width: 60%;
+
 }
 
 video{
+
     float:left;
-    height: 30%;
-    width: 50%;
+    height: 140%;
+    width: 60%;
 }
 
 aside{
 
-    width: 320px;
+    width: 600px;
     float: right;
     margin-top: 10px;
     background-color: rgba(0, 128, 128, 0);
     border-radius: 25px;
+    font-size: large;
 }
 
 footer{
@@ -67,32 +83,37 @@ footer{
 .center{
 
     text-align: center;
+    
 }
 
 nav{
 
-   
     background-color: teal;
     padding-bottom: 20px;
     padding-top: 20px;
     border-radius: 25px;
+  
 
 }
 
 li a{
 
-    color: rgb(255, 255, 255);
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 10px;
+    font-size: larger;
 }
 ol a{
 
-    
-    color: rgb(0, 0, 0);
+    color: blue;
+    font-size: large;
+    margin: 0%;
+    padding:0%;
 
 }
 
 .AsideList{
 
-    list-style-type: none;
     font-size: 20px;
 }
 
@@ -102,12 +123,19 @@ li{
     font-weight: bold;
     display:left;
     font-size: 20px;
+  
 }
+
+
 
 section header{
 
   
     background-color:rgb(0, 128, 128);
+    border-radius: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
 
 }
 
@@ -115,24 +143,21 @@ article header{
 
  
     background-color: rgb(0, 128, 128);
-
+    border-radius: 0px;
+  
 }
 
 aside header{
 
    
     background-color:teal;
-
-}
-
-.pauth{
-
-    font-style: italic;
+    
 }
 
 article h3{
 
     font-style: bold;
+
 }
 
 article{
@@ -140,6 +165,8 @@ article{
    
     background-color: rgba(255, 255, 255, 0);
     margin: 10px;
+    width: 550px;
+
 }
 
 ol{
@@ -149,10 +176,10 @@ ol{
 
 .AsideHead{
 
-    
     background-color:teal;
     border-radius: 25px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
 }
+
