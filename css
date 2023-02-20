@@ -1,0 +1,87 @@
+
+body {
+	background-color: #111111;
+	background-image: url(veyronssbkground.jpg);
+	background-repeat: repeat-x;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	line-height: 1.5;
+  }
+  
+  table {
+	margin: 0 auto;
+	background-color: black;
+	border: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 800px;
+  }
+  
+  h1 {
+	color: #ff6600;
+	background-color: #111111;
+	font-family: "Arial Narrow";
+	text-align: center;
+  }
+  
+  h2 {
+	color: #ff6600;
+	background-color: #ffcc00;
+	font-family: "Tempus Sans ITC", Arial, sans-serif;
+	text-align: center;
+  }
+  
+  h3 {
+	color: #ff6600;
+  }
+  
+  a:link, a:visited, a:active {
+	color: #ff6600;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: #ffffff;
+	background-color: #ffcc99;
+	text-decoration: underline;
+  }
+  
+  .style1{
+	line-height: 1.5;
+	padding: 5px;
+	text-align: justify;
+	font-size: small;
+  }
+  
+  .style2{
+	line-height: 0.4cm;
+	padding: 5px;
+	text-align: left;
+	font-size: small;
+	color: #ffcc99;
+  }
+  
+  #menu {
+	text-decoration: none;
+	font-size: small;
+	font-family: "Arial Narrow";
+  }
+  
+  ul li {
+	list-style-type: none;
+  }
+  
+  ul a {
+	font-size: large;
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	color: #ff6600;
+	list-style-type: none;
+  }
+  
+  ul a:hover {
+	text-decoration: overline underline;
+	background-color: #ff6600;
+	color: #ffffff;
+  }
