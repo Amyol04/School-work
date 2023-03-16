@@ -8,16 +8,11 @@ package carGarage;
  * */
 
 
-public class{
-
-	
-} 
-
 
 public class Bus extends Vehicle {
         private int numPassengers;
 
-		public Bus(String module, String regNum, double speed, double fullCompasity, double fuelCompsution) {
+		public Bus(String module, String regNum, double speed, double fullCompasity, double fuelCompsution,int numPassengers) {
 			super(module, regNum, speed, fullCompasity, fuelCompsution);
 			this.numPassengers = numPassengers;
 		}
@@ -32,3 +27,4 @@ public class Bus extends Vehicle {
         
 		
 }
+
