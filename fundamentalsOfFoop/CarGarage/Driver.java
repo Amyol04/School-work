@@ -1,4 +1,4 @@
-public package carGarage;
+package carGarage;
 
 /**
  * 
@@ -16,8 +16,8 @@ public class Driver {
 	
 	public static void main(String[] args) {
 		
-		Bus myBus = new Bus("Bus100", "132 D 24", 0, 400, 2.5);
-		Truck myTruck = new Truck("Bus100", "132 D 24", 0, 400, 2.5);
+		Bus myBus = new Bus("Bus100", "132 D 24", 0, 400, 2.5, 23);
+		Truck myTruck = new Truck("Bus100", "132 D 24", 0, 400, 2.5, 4324);
 		
 		System.out.println("Fule needed to drive the bus 150km" +myBus.fuelNeeded(100)); 
 		myBus.display();
@@ -33,4 +33,6 @@ public class Driver {
 	private static void efficiencyCalculator(Vehicle v1, Vehicle v2){
    }
 } 
+
+
 
