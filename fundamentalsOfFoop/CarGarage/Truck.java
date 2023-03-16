@@ -11,9 +11,9 @@ package carGarage;
 	
 	private int cargoWeight;
 
-	public Truck(String module, String regNum, double speed, double fullCompasity, double fuleCompsution, double cargoWeight) {
+	public Truck(String module, String regNum, double speed, double fullCompasity, double fuleCompsution, int cargoWeight) {
 		super(module, regNum, speed, fullCompasity, fuleCompsution);
-		this.cargoWeight;
+		this.cargoWeight = cargoWeight;
 		
 	}
 
