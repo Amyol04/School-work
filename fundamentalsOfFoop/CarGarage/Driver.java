@@ -36,3 +36,15 @@ public class Driver {
 
 
 
+public static Vehicle efficiencycalculator (Vehicle v1, Vehúcle v2)
+double fuelPerKm1 = 1 / v1.getFue]consumption);
+double fuelPerKm2 = 1 / v2.getFuelconsumption()
+double distance1 = vi,distanceCoveredk4(1)
+double distance2 = v2.distancecoveredn(1):
+double efficiency = distance / fuelPerkm:
+double efficiency2 = distance / fuelPerKa?;
+if (efficiency › efficiency2) (
+return vi;
+] else {
+return v2;
+
