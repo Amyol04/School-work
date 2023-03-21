@@ -9,21 +9,19 @@ package carGarage;
 
 
 
-public class Bus extends Vehicle {
-        private int numPassengers;
-
-		public Bus(String module, String regNum, double speed, double fullCompasity, double fuelCompsution,int numPassengers) {
-			super(module, regNum, speed, fullCompasity, fuelCompsution);
-			this.numPassengers = numPassengers;
-		}
-
-		public int getNumPassengers() {
-			return numPassengers;
-		}
-
-		public void setNumPassengers(int numPassengers) {
-			this.numPassengers = numPassengers;
-		}
-        
-		
+ public class Bus extends Vehicle {
+    private int numOfPassengers;
+    
+    public Bus(String model, String registrationNumber, double speed, double fuelCapacity, double fuelConsumption, int numOfPassengers) {
+        super(model, registrationNumber, speed, fuelCapacity, fuelConsumption);
+        this.numOfPassengers = numOfPassengers;
+    }
+    
+    public int getNumOfPassengers() {
+        return numOfPassengers;
+    }
+    
+    public void setNumOfPassengers(int numOfPassengers) {
+        this.numOfPassengers = numOfPassengers;
+    }
 }
