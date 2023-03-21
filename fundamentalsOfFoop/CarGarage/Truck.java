@@ -8,21 +8,18 @@ package carGarage;
  * */
 
  public class Truck extends Vehicle {
-	
-	private int cargoWeight;
-
-	public Truck(String module, String regNum, double speed, double fullCompasity, double fuleCompsution, int cargoWeight) {
-		super(module, regNum, speed, fullCompasity, fuleCompsution);
-		this.cargoWeight = cargoWeight;
-		
-	}
-
-	public int getcargoWeight() {
-		return cargoWeight;
-	}
-
-	public void setcargoWeight(int cargoWeight) {
-		this.cargoWeight = cargoWeight;
-	}
-	
+    private double cargoWeightLimit; // kg
+    
+    public Truck(String model, String registrationNumber, double speed, double fuelCapacity, double fuelConsumption, double cargoWeightLimit) {
+        super(model, registrationNumber, speed, fuelCapacity, fuelConsumption);
+        this.cargoWeightLimit = cargoWeightLimit;
+    }
+    
+    public double getCargoWeightLimit() {
+        return cargoWeightLimit;
+    }
+    
+    public void setCargoWeightLimit(double cargoWeightLimit) {
+        this.cargoWeightLimit = cargoWeightLimit;
+    }
 }
