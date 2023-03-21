@@ -29,8 +29,8 @@ public class Driver {
         myBus.display();
 
 		 
-		System.out.println("The bus travels " + myBus.distanceCovered(1) + " in 1 hour");	 //distanceCoveredKM for Bus
-		System.out.println("The truck travels " + myTruck.distanceCovered(1) + " in 1 hour");	 //distanceCoveredKM for Truck
+	System.out.println("The bus travels " + myBus.distanceCovered(1) + " in 1 hour");	 //distanceCoveredKM for Bus
+	System.out.println("The truck travels " + myTruck.distanceCovered(1) + " in 1 hour");	 //distanceCoveredKM for Truck
 
         
         // use a method called efficiencyCalculator() to calculate which of 2 vehicle objects is the more efficient
