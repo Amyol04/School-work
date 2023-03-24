@@ -1,12 +1,19 @@
-What is an operating system?
+1) What is an operating system?
+- software that controls the hardware. 
+2)Give two examples of modern operating systems.
+- Windows10 & Ios16
+3)What are the functions of an operating system?
+- Memory management, Processor management, Device Management, File manegement 
+4) What is memory management?
+- allocating memory to seprate programs. 
+5)What is processor management?
+- schedual processes on a processor 
+6) What is device management?
+- allows connected devices to communicate w other devices connected
+7)What is file management?
+- creating sturcture on a device to organize, eg. folders 
+8)What is a thread?
 
-Give two examples of modern operating systems.
-What are the functions of an operating system?
-What is memory management?
-What is processor management?
-What is device management?
-What is file management?
-What is a thread?
 What is a process?
 Name the 5 states of a process
 What is a traffic controller?
@@ -52,6 +59,3 @@ What does the ipconfig command do?
 What does the del command do?
 In Linux what does the ls command do?
 What is a kernal?
-
-
-
