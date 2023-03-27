@@ -1,0 +1,101 @@
+What is a class? 
+ -  A blueprint / template for an object 
+
+What is an object? 
+ - instance of a class 
+
+What is an instance of an object? 
+ - 
+
+What is object oriented programming? 
+ - objects communicating to eachother in code 
+
+Give advantages of OOP 
+ - reusable code 
+
+What is inheritance? 
+ - one class gains the feature of another class 
+
+What is abstraction? 
+ - 
+
+What is polymorphism? 
+ - generalize type of objects 
+
+What is encapsulation? 
+ - making instances private / controlling access 
+
+What is a concrete class? 
+ - a class that has an inplementaion for all tis methods 
+
+What is an abstract class? 
+ - cannot create instants 
+
+What is a superclass? 
+- inherinting from 
+
+What is a subclass? 
+ - does inheriniting 
+
+What is a method? 
+ - 
+
+What is an abstract method? 
+ - method with a header and no body 
+
+What is a constructor? 
+ - initialize variables 
+
+What is a destructor? 
+ - frees up memory 
+ 
+What is an array? 
+ - holds simular objects 
+
+What is the advantage of an array? 
+ -
+
+What is the disadvantage of an array? 
+ - 
+
+What is the last element of an array in relation to the array size? 
+- 
+
+
+What happens if you try to add a value outside the size of the array? 
+ - 
+ 
+What is an arraylist? 
+ - 
+
+What is a set? 
+
+What is a map? 
+
+What is a queue? 
+
+What is a stack? 
+
+What is platform independence? 
+ - code can run on any platform 
+
+What is operator precedence? 
+ - the order of operators is a collecion of rules, decides thats first (?) 
+
+What is architecture neutral? 
+ - sae code 
+
+What is a compiler? 
+ - coverts code into machine  language
+
+What is an interpreter? 
+ - 
+
+What is persistent storage? 
+ - info is stored 
+
+What is a primitive data type? 
+ - 
+
+Give an example of a primitive data type. 
+ - 
