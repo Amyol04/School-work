@@ -50,10 +50,10 @@ What is a destructor?
  - frees up memory 
  
 What is an array? 
- - holds simular objects 
+ - a collection of elements of the same type placed in contiguous memory locations
 
 What is the advantage of an array? 
- - the elements can be accessed randomly by using the index number. 
+ - Fast 
 
 What is the disadvantage of an array? 
  - An array has a fixed size
@@ -68,10 +68,13 @@ What is an arraylist?
  - ArrayList class is a resizable array
 
 What is a set? 
+- collection that does not allow duplicates 
 
 What is a map? 
+- 
 
 What is a queue? 
+- first in / first out 
 
 What is a stack? 
 
@@ -88,7 +91,7 @@ What is a compiler?
  - coverts code into machine  language
 
 What is an interpreter? 
- - a program that can analyse and execute a program line by line.
+ - directly executes source code
 
 What is persistent storage? 
  - info is stored 
