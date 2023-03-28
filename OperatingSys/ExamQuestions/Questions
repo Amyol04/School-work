@@ -32,44 +32,130 @@ What is a traffic controller?
 -  scheduals task, cpu 
 
 What is system software?
+- needed to keep the system running. eg, device drivers 
+
 What is application software?
+- programs that run on a computer for tasks, eg. teams
+
 What is main memory?
+- Short term memory eg. Ram
+
 What is secondary memory?
+- long term memory eg. Harddrive
+
 What is virtual memory?
+- memory management technique where secondary memory can be used as if it were a part of the main memory
+
 What is cloud computing?
+- using a network of remote servers hosted on the internet to store, manage, and process data, rather than a local server or a personal computer.
+
 Give an advantage of cloud computing?
+ - 24/7 access , cheap
+ 
 Give a disadvantage of cloud computing?
+ - lack of security 
+ 
 List the 4 types of cloud structure
+- 1) Public 2) private 3) community 4) hybrid 
+
 What is IaaS?
+- Infrastructure as a Service ||
+a business model that delivers IT infrastructure like compute, storage, and network resources on a pay-as-you-go basis over the internet. 
+
 What is PaaS?
+- Platform as a service. || 
+a complete development and deployment environment in the cloud
+
 What is SaaS?
+- Software-as-a-Service || 
+a licensing and distribution model used to deliver software applications over the Internet i.e. as a service
+
 Give two examples of cloud providers.
+- Amazon AWS , Google Apps. 
+
 What is the first item to run what a computer is turned on?
+- POST ( Powe on self test)
+
 What is the second item to run what a computer is tuned on?
+- BIOS ( Basic input output settings)
+
 What is the third item to run when a computer is turned on?
+ -  MBR (Master Boot Record) 
+
 What is a single user single task operating system and give an example?
+- 1 person, one person. || DOSS
+
 What is a single user multi task operating system and give an example?
+- 1 person, mutli tasks. || Win10
+
 What is a multi-user multi-task operating system and give an example?
+-  Multi people, milti task || Unix 
+
 What is a distributed operating system?
+-  Run as single but multi pc's. || Disney Pizar 
+
 What is a batch operating system?
+- a type of operating system that allows multiple users to use it at the same time
+
 What is a real time operating system?
+- operating system for real-time computing applications that processes data and events that have critically defined time constraints
+
 What is a swap partition?
+- a standard disk partition that is designated as swap space by the mkswap command
+
 How big should a swap partition be?
+- 1/2 memory - 2x memory. 
+
 What is paging?
+- a storage mechanism used in OS to retrieve processes from secondary storage to the main memory as pages
+
 What is an interface?
+- a device or program enabling a user to communicate with a computer.
+
 Give two examples of types of interfaces.
+-graphical user interface (GUI) || command line interface (CLI)
+
 Name four file systems.
+-
+
 What is defragmenting a hard disk drive?
+- organizes storage on your computer by consolidating files and other data saved on your hard drive
+
 What does the dir command do?
+- displays, in wide format, an alphabetized list of the matching file names in each directory,
+
 What does the cd command do?
+- allows you to move between directories.
+
 What does the cls command do?
+- Clears the Command Prompt window
+
 What does the copy command do?
+- copies selected file items to another file,
+
 What does the move command do?
+- move one or more files or directories from one place to another
+
 What does the md command do?
-What does the rd command do?
+-  adds a new directory to the system. 
+
+-What does the rd command do?
+- Deletes a directory tree
+
 What does the edit command do?
+-  enter data into the system.
+
 What does the ping command do?
+- troubleshoot connectivity, reachability, and name resolution.
+
 What does the ipconfig command do?
+-  displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters
+
 What does the del command do?
+- Deletes one or more files
+
 In Linux what does the ls command do?
+- list files. 
+
 What is a kernal?
+-  a computer program at the core of a computer's operating system
