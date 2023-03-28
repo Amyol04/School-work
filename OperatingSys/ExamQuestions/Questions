@@ -1,22 +1,36 @@
-1) What is an operating system?
+What is an operating system?
 - software that controls the hardware. 
-2)Give two examples of modern operating systems.
+
+Give two examples of modern operating systems.
 - Windows10 & Ios16
-3)What are the functions of an operating system?
+
+What are the functions of an operating system?
 - Memory management, Processor management, Device Management, File manegement 
-4) What is memory management?
-- allocating memory to seprate programs. 
-5)What is processor management?
-- schedual processes on a processor 
-6) What is device management?
+
+What is memory management?
+- allocating memory to seprate programs.
+
+What is processor management?
+- schedual processes on a processor
+
+What is device management?
 - allows connected devices to communicate w other devices connected
-7)What is file management?
+
+What is file management?
 - creating sturcture on a device to organize, eg. folders 
-8)What is a thread?
+
+What is a thread?
+- a sequential flow of tasks within a process.
 
 What is a process?
+- as an entity which represents the basic unit of work to be implemented in the system. 
+
 Name the 5 states of a process
+-  new, ready, running, blocked, and exit.
+
 What is a traffic controller?
+-  scheduals task, cpu 
+
 What is system software?
 What is application software?
 What is main memory?
