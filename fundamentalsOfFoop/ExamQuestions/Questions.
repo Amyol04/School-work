@@ -5,7 +5,7 @@ What is an object?
  - instance of a class 
 
 What is an instance of an object? 
- - 
+ - a specific realization of any object
 
 What is object oriented programming? 
  - objects communicating to eachother in code 
@@ -17,7 +17,7 @@ What is inheritance?
  - one class gains the feature of another class 
 
 What is abstraction? 
- - 
+ - Abstraction is the process of hiding the internal details of an application from the outer world.
 
 What is polymorphism? 
  - generalize type of objects 
@@ -38,7 +38,7 @@ What is a subclass?
  - does inheriniting 
 
 What is a method? 
- - 
+ -  a programmed procedure that is defined as part of a class and is available to any object instantiated from that class. 
 
 What is an abstract method? 
  - method with a header and no body 
@@ -53,20 +53,19 @@ What is an array?
  - holds simular objects 
 
 What is the advantage of an array? 
- -
+ - the elements can be accessed randomly by using the index number. 
 
 What is the disadvantage of an array? 
- - 
+ - An array has a fixed size
 
 What is the last element of an array in relation to the array size? 
-- 
-
+- the last index will total the length of array -1
 
 What happens if you try to add a value outside the size of the array? 
- - 
+ - The element will be set to 0.
  
 What is an arraylist? 
- - 
+ - ArrayList class is a resizable array
 
 What is a set? 
 
@@ -89,13 +88,13 @@ What is a compiler?
  - coverts code into machine  language
 
 What is an interpreter? 
- - 
+ - a program that can analyse and execute a program line by line.
 
 What is persistent storage? 
  - info is stored 
 
 What is a primitive data type? 
- - 
+ -  a set of basic data types from which all other data types are constructed
 
 Give an example of a primitive data type. 
- - 
+ - integers, floating point numbers and individual characters in text
