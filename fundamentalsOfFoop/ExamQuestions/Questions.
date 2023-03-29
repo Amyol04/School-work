@@ -74,7 +74,7 @@ What is a map?
 - collection where there is no index, uses a key -> value pairing, keys are unique 
 
 What is a queue? 
-- first in / first out 
+- collection that is first in / first out 
 
 What is a stack? 
 -  consists of data items, allowing one to insert or delete the item at the top end of the stack
