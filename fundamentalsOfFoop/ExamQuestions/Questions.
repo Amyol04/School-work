@@ -4,13 +4,13 @@ What is a class?
 What is an object? 
  - instance of a class 
 
-What is an instance of an object? 
- - a specific realization of any object
+What is an instance of a class? 
+ - An object
 
 What is object oriented programming? 
- - objects communicating to eachother in code 
+ - computer programing mdel that organizes software design around data and objects instead of funtions and logic 
 
-Give advantages of OOP 
+Give an advantages of OOP 
  - reusable code 
 
 What is inheritance? 
