@@ -83,10 +83,10 @@ What is platform independence?
  - code can run on any platform 
 
 What is operator precedence? 
- - the order of operators is a collecion of rules, decides thats first (?) 
+ - the order of operators is a collecion of rules, decides the first operation, eg. BODMAS
 
 What is architecture neutral? 
- - a "binary code format" that's independent of hardware architectures, operating system interfaces, and window systems
+ - code that runs independed of hardware, os and windows systems. 
 
 What is a compiler? 
  - coverts code into machine  language
