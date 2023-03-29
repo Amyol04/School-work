@@ -35,34 +35,34 @@ What is a superclass?
 - a class that is inherinting from 
 
 What is a subclass? 
- - does inheriniting 
+ - does inheriniting from another class 
 
 What is a method? 
- -  a programmed procedure that is defined as part of a class and is available to any object instantiated from that class. 
+ -  a named block of code that repersents behaviour 
 
 What is an abstract method? 
  - method with a header and no body 
 
 What is a constructor? 
- - initialize variables 
+ - initialize variables as an object is created
 
 What is a destructor? 
- - frees up memory 
+ - frees up memory that is no longer is needed 
  
 What is an array? 
  - a collection of elements of the same type placed in contiguous memory locations
 
 What is the advantage of an array? 
- - Fast 
+ - Fast access 
 
 What is the disadvantage of an array? 
- - An array has a fixed size
+ - fixed in size
 
 What is the last element of an array in relation to the array size? 
 - the last index will total the length of array -1
 
 What happens if you try to add a value outside the size of the array? 
- - The element will be set to 0.
+ - run time error - ArrayOutOfBounds - program May/Will crash
  
 What is an arraylist? 
  - ArrayList class is a resizable array
