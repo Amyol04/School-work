@@ -23,7 +23,7 @@ What is polymorphism?
  - generalize variable type, method parameter or return type so it will work with many types.
 
 What is encapsulation? 
- - making instances private / controlling access 
+ - protecig data by making instances private / controlling access with public getters and setters
 
 What is a concrete class? 
  - a class that has an inplementaion for all tis methods 
