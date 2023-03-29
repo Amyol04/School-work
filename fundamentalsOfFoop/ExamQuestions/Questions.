@@ -26,7 +26,7 @@ What is encapsulation?
  - protecig data by making instances private / controlling access with public getters and setters
 
 What is a concrete class? 
- - a class that has an inplementaion for all tis methods 
+ - a class that has an inplementaion for all its methods 
 
 What is an abstract class? 
  - cannot create instants 
