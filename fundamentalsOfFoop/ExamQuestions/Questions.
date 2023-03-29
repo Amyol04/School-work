@@ -86,7 +86,7 @@ What is operator precedence?
  - the order of operators is a collecion of rules, decides thats first (?) 
 
 What is architecture neutral? 
- - sae code 
+ - a "binary code format" that's independent of hardware architectures, operating system interfaces, and window systems
 
 What is a compiler? 
  - coverts code into machine  language
