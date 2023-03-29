@@ -95,10 +95,10 @@ What is an interpreter?
  - directly executes source code
 
 What is persistent storage? 
- - info is stored 
+ - long term storage eg file / database 
 
 What is a primitive data type? 
  -  a set of basic data types from which all other data types are constructed
 
 Give an example of a primitive data type. 
- - integers, floating point numbers and individual characters in text
+ - byte, short, int, long , float, double , char or boolean
