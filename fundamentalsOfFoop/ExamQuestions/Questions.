@@ -89,7 +89,7 @@ What is architecture neutral?
  - code that runs independed of hardware, os and windows systems. 
 
 What is a compiler? 
- - coverts code into machine  language
+ - coverts source code into machine code
 
 What is an interpreter? 
  - directly executes source code
