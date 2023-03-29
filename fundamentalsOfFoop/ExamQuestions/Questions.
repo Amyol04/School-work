@@ -26,13 +26,13 @@ What is encapsulation?
  - protecig data by making instances private / controlling access with public getters and setters
 
 What is a concrete class? 
- - a class that has an inplementaion for all its methods 
+ - a class that can be instaniated | A class you can make objects from 
 
 What is an abstract class? 
- - cannot create instants 
+ - cannot create instants | only repersents part of an object, completed by subclass 
 
 What is a superclass? 
-- inherinting from 
+- a class that is inherinting from 
 
 What is a subclass? 
  - does inheriniting 
