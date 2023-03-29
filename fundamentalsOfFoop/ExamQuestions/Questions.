@@ -65,13 +65,13 @@ What happens if you try to add a value outside the size of the array?
  - run time error - ArrayOutOfBounds - program May/Will crash
  
 What is an arraylist? 
- - ArrayList class is a resizable array
+ - ArrayList class is a resizable array. only accepts objects 
 
 What is a set? 
 - collection that does not allow duplicates 
 
 What is a map? 
-- 
+- collection where there is no index, uses a key -> value pairing, keys are unique 
 
 What is a queue? 
 - first in / first out 
